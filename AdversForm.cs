@@ -31,5 +31,33 @@ namespace TV_Advertisement
             this.adv_SegmentTableAdapter.Fill(this.dB_AdvertisementDataSet1.Adv_Segment);
 
         }
+
+        private void adv_SegmentDataGridView_DataError(object sender, DataGridViewDataErrorEventArgs e)
+        {
+            if (e.Exception != null)
+            {
+                MessageBox.Show("Неверный тип введенных данных или пустое поле!");
+            }
+        }
+
+        private void textBox1_KeyUp(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+                for (int i = 0; i < adv_SegmentDataGridView.Rows.Count - 1; i++)
+                {
+                    if (adv_SegmentDataGridView[1, i].Value.ToString().TrimEnd(' ') == textBox1.Text)
+                    {
+                        MessageBox.Show("Рекламный ролик: " +  textBox1.Text + " найден!");
+                        break;
+                    }   
+                }
+            }
+        }
+
+        private void textBox1_Click(object sender, EventArgs e)
+        {
+            textBox1.Clear();
+        }
     }
 }
