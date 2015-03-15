@@ -49,6 +49,8 @@ namespace TV_Advertisement
                     if (tV_ChannelDataGridView[1, i].Value.ToString().TrimEnd(' ') == textBox1.Text)
                     {
                         MessageBox.Show("Телеканал: " + textBox1.Text + " найден!");
+                        tV_ChannelDataGridView.ClearSelection();
+                        tV_ChannelDataGridView[1, i].Selected = true; 
                         break;
                     }
                 }

@@ -49,6 +49,8 @@ namespace TV_Advertisement
                     if (adv_SegmentDataGridView[1, i].Value.ToString().TrimEnd(' ') == textBox1.Text)
                     {
                         MessageBox.Show("Рекламный ролик: " +  textBox1.Text + " найден!");
+                        adv_SegmentDataGridView.ClearSelection();
+                        adv_SegmentDataGridView[1, i].Selected = true;                     
                         break;
                     }   
                 }

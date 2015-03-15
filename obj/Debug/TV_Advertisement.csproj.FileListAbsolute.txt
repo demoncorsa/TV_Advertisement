@@ -3,7 +3,6 @@ C:\Проекты\TV_Advertisement\TV_Advertisement\bin\Debug\DB_Advertisement.m
 C:\Проекты\TV_Advertisement\TV_Advertisement\bin\Debug\DB_Advertisement_log.ldf
 C:\Проекты\TV_Advertisement\TV_Advertisement\bin\Debug\TV_Advertisement.exe
 C:\Проекты\TV_Advertisement\TV_Advertisement\bin\Debug\TV_Advertisement.pdb
-C:\Проекты\TV_Advertisement\TV_Advertisement\obj\Debug\TV_Advertisement.csprojResolveAssemblyReference.cache
 C:\Проекты\TV_Advertisement\TV_Advertisement\obj\Debug\TV_Advertisement.Form1.resources
 C:\Проекты\TV_Advertisement\TV_Advertisement\obj\Debug\TV_Advertisement.Properties.Resources.resources
 C:\Проекты\TV_Advertisement\TV_Advertisement\obj\Debug\TV_Advertisement.csproj.GenerateResource.Cache
